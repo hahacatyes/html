@@ -174,6 +174,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Doors/m
 })
 
 Tab:AddButton({
+	Name = "Spawn Seek Eyes",
+	Callback = function()
+           require(game.ReplicatedStorage.ClientModules.EntityModules.Seek).tease(nil, workspace.CurrentRooms[game.Players.LocalPlayer:GetAttribute('CurrentRoom')], 100)
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Curse Hub",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CurseOfDarkness/CurseHubDoors/main/Curse%20Hub%20Doors"))()
@@ -1269,9 +1276,299 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/TIGER-SHARK-monkey-raft-Coll
 })
 
 local Tab = Window:MakeTab({
-	Name = "Blank Tab",
+	Name = "Murderers VS Sheriffs",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Rinns Hub (Many different scripts as well)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Dev Hub (Puts you into first person press Esc to use)",
+	Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/Lqot0qm3/raw"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Zombie Attack",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Projeto LKB",
+	Callback = function()
+-- pls join .gg/dPb8GzFnGZ --
+
+_G.Settings = true
+-- False / True --
+if _G.Settings == true then
+  _G.farm2 = false-- true / false Auto Farm
+_G.groundDistance = 0 -- <> Value <> Auto Farm +/- Up / Down
+_G.dist = 100000 -- <> Value <> Search-Zombie Distance
+_G.HeadSize = 2.5 -- <> Value <> Hitbox
+_G.autoequip = false-- true / false Auto Equip Tools + Duplicate Guns More Damage OP
+_G.AutoGetPowerups = false -- true / false Auto Get powerups Motolov, Granade ect...]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Zombie-Attack-Projeto-LKB/main/Open%20Source"))()
+print("1")
+  else
+ -- Basic_Settings --
+_G.farm2 = false-- true / false Auto Farm
+_G.groundDistance = 0 -- <> Value <> Auto Farm +/- Up / Down
+_G.dist = 100000 -- <> Value <> Search-Zombie Distance
+_G.HeadSize = 2.5 -- <> Value <> Hitbox
+_G.autoequip = false-- true / false Auto Equip Tools + Duplicate Guns More Damage OP
+_G.AutoGetPowerups = false -- true / false Auto Get powerups Motolov, Granade ect...
+-- _G.AutoBuyGuns = false -- Future Updates...
+-- _G.AutoUpdateGuns = false -- Future Updates...
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Zombie-Attack-Projeto-LKB/main/Open%20Source"))()
+print("2")
+end
+	end
+})
+
+Tab:AddButton({
+	Name = "Surival Hub V2",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/b4M9zmuN"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Dingus",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "SyniX Hub (Possibly Patched)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RayzMd/SyniX-Team/main/SyniXScripts"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Rylvns Hub (Possibly Patched)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Rylvns/EnvisionExploits/master/game-scripts/dingus/source.lua"))();
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "A Universal Time",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Lazy Hub",
+	Callback = function()
+repeat wait() until game:IsLoaded()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/loader.lua"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Flames Hub",
+	Callback = function()
+getgenv().ToggleUI = "J";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvl9999/FlamesW/new/Launcher"))();
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Answer Or Die",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Melon Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://github.com/OfficiallyMelon/melons_script_hub/raw/main/answerordie.lua"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Flee The Facility",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "YARHM Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Surival Hub V2",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/b4M9zmuN"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Lumber Tycoon",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Surival Hub V2",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/b4M9zmuN"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "LuaWare",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Gunfight Arena",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Mikey Hub - Maybe Reccomended",
+	Callback = function()
+-- gg/vNvbKMCfJH
+-- MikeyHub Free & Premium Ver:
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScriptHub/MikeyHub-V2/main/Loader/Main"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Skibidi Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/motonik-heldoaxxyy/Project-9393-_-2-8-_-93-_04-2-9-38-8_-8-/main/Skibidi%20Hub'))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Rinns Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Flicker",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Surival Hub V2",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/b4M9zmuN"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Bloxy Cola Hub V4",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DaDevs/Pro/main/Protected_3823921523034656.lua.txt"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Robeats",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Autoplayer 1 - Key: RoBeats9CCC",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ICraftPe/ICraftPe/main/UniversalScript"))()
+	end
+})
+Tab:AddButton({
+	Name = "Autoplayer 2 - Execute Once Only",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/RobloxReleases/main/Scripts/RoBeats/Autoplayer.lua"))();
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Boxing Beta",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Script 1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mxkxkks1/Boxing-Beta-UI/main/main.lua"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Entrenched",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Aimbot And ESP",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/glenn4you/Script/main/Aimbot"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Shindo Life",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "MickyHub",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/YMUxH4u7"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Surival Hub V2",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/b4M9zmuN"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Cursed Arena",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "NS Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/CA2/main/Solara"))()
+	end
+})
+
+Tab:AddButton({
+	Name = "Flaming hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Coemssuw8a/Dragonic-HUB/main/Protected_4928151334798917.lua.txt",true))()
+	end
 })
 
 local Tab = Window:MakeTab({
@@ -1279,13 +1576,6 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
-local Tab = Window:MakeTab({
-	Name = "Blank Tab",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
 
 -- Orion Library Handler
 OrionLib:Init()
